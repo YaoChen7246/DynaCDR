@@ -4,13 +4,7 @@
 
 This directory is **not tracked by git**. All contents are distributed via the project's Zenodo archive and must be downloaded before running any training or evaluation script.
 
-> **Zenodo DOI:** [`10.5281/zenodo.XXXXXXX`](https://doi.org/10.5281/zenodo.XXXXXXX) 
-> 
-> **Version:** `v1.0.0` 
-> 
-> **Size:** ~X.X GB (compressed), ~Y.Y GB (uncompressed) 
-> 
-> **License:** [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
+> **Zenodo DOI:** [`10.5281/zenodo.23522084`](https://doi.org/10.5281/zenodo.23522084) 
 
 ---
 
@@ -20,7 +14,7 @@ This directory is **not tracked by git**. All contents are distributed via the p
 
 1. Open the Zenodo record.
 
-2. Download **`DynaCDR_data_v1.0.0.zip`** (~X.X GB).
+2. Download **`DynaCDR_data_v1.0.0.zip`** .
 
 3. Extract it into the repository root:
    
@@ -34,7 +28,7 @@ This directory is **not tracked by git**. All contents are distributed via the p
 
 ```bash
 wget -O DynaCDR_data_v1.0.0.zip \
-     https://zenodo.org/record/XXXXXXX/files/DynaCDR_data_v1.0.0.zip
+     https://zenodo.org/record/23522084/files/DynaCDR_data_v1.0.0.zip
 unzip DynaCDR_data_v1.0.0.zip -d .
 ```
 
