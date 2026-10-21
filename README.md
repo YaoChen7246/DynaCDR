@@ -70,7 +70,7 @@ DynaCDR depends on the following packages:
 
 All pre-processed feature CSVs, drug descriptors, label files are archived on Zenodo under a single DOI:
 
-> **Zenodo DOI:** [`10.5281/zenodo.XXXXXXX`](https://doi.org/10.5281/zenodo.XXXXXXX) **Version:** v1.0.0 (~X.X GB compressed)
+> **Zenodo DOI:** [`10.5281/zenodo.23522084`](https://doi.org/10.5281/zenodo.23522084) 
 
 Download the archive and extract it into the repo root:
 
@@ -82,7 +82,7 @@ unzip DynaCDR_data_v1.0.0.zip -d .
 
 # from the command line (requires wget)
 wget -O DynaCDR_data_v1.0.0.zip \
-     https://zenodo.org/record/XXXXXXX/files/DynaCDR_data_v1.0.0.zip
+     https://zenodo.org/record/23522084/files/DynaCDR_data_v1.0.0.zip
 unzip DynaCDR_data_v1.0.0.zip -d .
 ```
 
@@ -145,7 +145,7 @@ python test_on_TCGA.py  --ckpt ./output/DynaCDR_classification_fold_1.pkl
 
 The pre-processed features, labels and splits are archived at:
 
-- **Zenodo:** [`10.5281/zenodo.XXXXXXX`](https://doi.org/10.5281/zenodo.XXXXXXX) (v1.0.0, CC-BY-4.0)
+- **Zenodo:** [`10.5281/zenodo.23522084`](https://doi.org/10.5281/zenodo.23522084)
 - **Manifest & checksums:** [`DATA/README.md`](DATA/README.md)
 
 The raw upstream data can be obtained from the original sources:
